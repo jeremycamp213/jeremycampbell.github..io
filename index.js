@@ -1,0 +1,1 @@
+// TO DO: Create js array of quotes to list on home page
