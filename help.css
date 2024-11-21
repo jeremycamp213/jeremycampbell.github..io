@@ -42,23 +42,33 @@ body
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    padding: 2px;
+    margin: 0 auto;
 }
 
 .help-form {
-    padding: 10px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
     margin: 0 auto;
     background-color: rgba(252, 211, 211,.7);
+    width: 380px;
+    height: 430px;
 }
+
+.form-group {
+  width: 390px;
+  height: 130px
+}
+
+
 
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
 }
 
 .end-statment {
@@ -75,13 +85,31 @@ body
 }
 
 #name {
-    width: 140px;
+    width: 310px;
+    height: 50px;
     padding: 10px;
     margin: 5px;
+    font-size: large;
 }
 
 #email {
-    width: 140px;
+    width: 310px;
+    height: 50px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
+    font-size: large;
+}
+
+#message {
+    width: 330px;
+    height: 100px;
+    padding: 10px;
+    margin: 5px;
+    font-size: medium;
+}
+
+.quote-text {
+    padding: 2px;
+    margin: 0 auto;
+    color:salmon;
 }
