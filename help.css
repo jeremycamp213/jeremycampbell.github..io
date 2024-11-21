@@ -51,6 +51,7 @@ body
     align-items: center;
     width: fit-content;
     margin: 0 auto;
+    background-color: rgba(252, 211, 211,.7);
 }
 
 .form {
@@ -66,5 +67,21 @@ body
 }
 
 .main-content {
-  text-align: center;
+    text-align: center;
+}
+
+.button [type=text] {
+    min-width: 200px;
+}
+
+#name {
+    width: 140px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#email {
+    width: 140px;
+    padding: 10px;
+    margin: 10px;
 }
